@@ -1,35 +1,46 @@
+<!--  -----  BEGIN HEADER  ----- -->
 <header class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="{{ '/' | relative_url }}">
-      {% if site.data.strings[page.lang].site.logo %}
-      <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="{{ site.data.strings[page.lang].site.name }}" height="30">
-      {% else %}
-      {{ site.data.strings[page.lang].site.name }}
-      {% endif %}
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/logo.svg" alt="Bragasoft" height="30">
+      Bragasoft
     </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarContent" aria-controls="navbarContent"
-            aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarContent">
+    <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}">{{ site.data.strings[page.lang].nav.home }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/services.html' | relative_url }}">{{ site.data.strings[page.lang].nav.services }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/portfolio.html' | relative_url }}">{{ site.data.strings[page.lang].nav.portfolio }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/resume.html' | relative_url }}">{{ site.data.strings[page.lang].nav.resume }}</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/contact.html' | relative_url }}">{{ site.data.strings[page.lang].nav.contact }}</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
       </ul>
 
-      <!-- Language selector -->
+      <!-- language selector (just swaps HTML pages) -->
       <div class="d-flex">
-        <button class="btn btn-outline-secondary me-1" data-lang="en">EN</button>
-        <button class="btn btn-outline-secondary me-1" data-lang="es">ES</button>
-        <button class="btn btn-outline-secondary" data-lang="fr">FR</button>
+        <button class="btn btn-outline-secondary btn-sm me-1"
+                onclick="switchLang('en')">EN</button>
+        <button class="btn btn-outline-secondary btn-sm me-1"
+                onclick="switchLang('es')">ES</button>
+        <button class="btn btn-outline-secondary btn-sm"
+                onclick="switchLang('fr')">FR</button>
       </div>
-      <script src="{{ '/assets/js/lang-switch.js' | relative_url }}"></script>
     </div>
   </div>
 </header>
+
+<script>
+  // Very simple language switch – just loads the same page with ?lang=xx
+  function switchLang(lang) {
+    const url = new URL(window.location);
+    url.searchParams.set('lang', lang);
+    window.location = url;
+  }
+</script>
+<!--  -----  END HEADER  ----- -->

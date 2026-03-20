@@ -1,0 +1,45 @@
+/* -------------------------------------------------
+   Brand colours – you can change these quickly
+   ------------------------------------------------- */
+:root {
+  --primary: #0066cc;
+  --secondary: #555555;
+}
+
+/* -------------------------------------------------
+   Light / Dark toggle (optional, simple)
+   ------------------------------------------------- */
+[data-theme="dark"] {
+  --bs-body-bg: #212529;
+  --bs-body-color: #f8f9fa;
+}
+
+/* -------------------------------------------------
+   General tweaks
+   ------------------------------------------------- */
+body {
+  padding-top: 3rem;
+}
+
+/* Hero banner (first section on index.html) */
+.hero {
+  background: url('../img/hero.jpg') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+.hero h1 { font-size: 2.8rem; }
+.hero p { font-size: 1.2rem; }
+
+/* Pillars on the home page */
+.pillar {
+  text-align: center;
+  padding: 1rem;
+}
+.pillar h3 { color: var(--primary); }
+
+/* Simple button style overrides */
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
