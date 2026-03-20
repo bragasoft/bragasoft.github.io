@@ -1,0 +1,24 @@
+---
+layout: page
+title: "{{ site.data.strings[page.lang].nav.portfolio }}"
+lang: {{ page.lang | default: site.default_lang }}
+---
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  {% for proj in site.portfolio %}
+  <div class="col">
+    <div class="card h-100">
+      {% if proj.image %}
+      <img src="{{ proj.image | relative_url }}" class="card-img-top" alt="{{ proj.title }}">
+      {% endif %}
+      <div class="card-body">
+        <h5 class="card-title">{{ proj.title }}</h5>
+        <p class="card-text">{{ proj.description }}</p>
+        {% if proj.badge %}
+        <span class="badge bg-info text-dark">{{ proj.badge }}</span>
+        {% endif %}
+        <a href="{{ proj.url | relative_url }}" class="stretched-link"></a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

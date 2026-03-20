@@ -1,0 +1,179 @@
+en:
+  site:
+    name: "Bragasoft"
+    tagline: "Industrial‑grade software modernisation driven by research‑backed reverse‑engineering."
+  nav:
+    home: "Home"
+    services: "Services"
+    portfolio: "Portfolio"
+    resume: "Resume"
+    contact: "Contact"
+  hero:
+    cta_modernise: "Get a Modernisation Road‑Map"
+    cta_contact: "Talk to a Consultant"
+  pillars:
+    industrial:
+      title: "Industrial experience"
+      text: "14 years designing high‑performance, distributed systems for Lifeware, Ericsson and research contracts."
+    modernisation:
+      title: "Software modernisation"
+      text: "End‑to‑end migration of legacy platforms to cloud‑centric architectures using DDD, CI/CD and automated reverse‑engineering."
+    reverse:
+      title: "Reverse‑engineering expertise"
+      text: "Research tools (Moose/FAMIX, Solidity analyzers, digital twins) now power the Berger Levrault workflow and university labs."
+  services:
+    modernisation:
+      title: "Software Modernisation Consulting"
+      intro: "A fully‑engineered migration plan that turns legacy codebases into maintainable, cloud‑ready systems."
+      bullets:
+        - "Domain‑Driven Design to model the target architecture."
+        - "Automated reverse‑engineering (Moose/FAMIX) for Access, VisualWorks, C, C++."
+        - "CI/CD pipelines (GitLab, Jenkins, Travis) guaranteeing continuous delivery."
+        - "Proof‑of‑concept prototype deployed within 6‑12 weeks."
+      research_note: "Methodology co‑developed with INRIA RMOD and Berger Levrault – see the PhD thesis (2023)."
+    reverse:
+      title: "Reverse‑Engineering & Digital‑Twin Services"
+      intro: "Extract high‑fidelity models of complex legacy systems and simulate them while you rewrite."
+      bullets:
+        - "High‑fidelity system models (software, data, UI)."
+        - "Digital twins that run side‑by‑side with the original."
+        - "Custom parsers built in Pharo Smalltalk."
+        - "Model‑driven migration scripts that automate refactoring."
+  contact:
+    intro: "Tell us about the legacy system you need to modernise – we’ll reply within 24 h."
+    name: "Name"
+    email: "Email"
+    company: "Company"
+    message: "Message"
+    submit: "Send"
+  resume:
+    title: "Quick CV"
+    bullets:
+      - "PhD (2023) – Software Modernisation, Univ. of Lille."
+      - "14 years industrial engineering (Lifeware, Ericsson, Berger Levrault)."
+      - "11 years R&D in European labs (INRIA RMOD, Berger Levrault, IMT‑Douai)."
+      - "Designed reverse‑engineering pipelines (Moose/FAMIX) for legacy migrations."
+      - "Open‑sourced modernisation toolkits (TaskIT, Meta‑model generators) used in university curricula."
+      - "Led end‑to‑end migrations: Access → Web, VisualWorks → Java, COBOL → micro‑services."
+      - "Speaker at PharoDays, ESUG, FOSDEM (reverse‑engineering, migration, blockchain analysis)."
+      - "Languages: English, Spanish, French (fluent); Italian, Chinese (basic)."
+
+es:
+  site:
+    name: "Bragasoft"
+    tagline: "Modernización de software industrial basada en ingeniería inversa respaldada por investigación."
+  nav:
+    home: "Inicio"
+    services: "Servicios"
+    portfolio: "Portafolio"
+    resume: "Currículum"
+    contact: "Contacto"
+  hero:
+    cta_modernise: "Obtener una hoja de ruta de modernización"
+    cta_contact: "Hablar con un consultor"
+  pillars:
+    industrial:
+      title: "Experiencia industrial"
+      text: "14 años diseñando sistemas de alto rendimiento y distribuidos para Lifeware, Ericsson y contratos de investigación."
+    modernisation:
+      title: "Modernización de software"
+      text: "Migración completa de plataformas legacy a arquitecturas en la nube usando DDD, CI/CD e ingeniería inversa automatizada."
+    reverse:
+      title: "Ingeniería inversa"
+      text: "Herramientas de investigación (Moose/FAMIX, analizadores Solidity, gemelos digitales) que impulsan el workflow de Berger Levrault y laboratorios universitarios."
+  services:
+    modernisation:
+      title: "Consultoría de Modernización de Software"
+      intro: "Plan de migración totalmente diseñado que convierte bases de código legacy en sistemas mantenibles y listos para la nube."
+      bullets:
+        - "Domain‑Driven Design para modelar la arquitectura objetivo."
+        - "Ingeniería inversa automatizada (Moose/FAMIX) para Access, VisualWorks, C, C++."
+        - "Pipelines CI/CD (GitLab, Jenkins, Travis) que garantizan entregas continuas."
+        - "Prototipo de prueba de concepto entregado en 6‑12 semanas."
+      research_note: "Metodología co‑desarrollada con INRIA RMOD y Berger Levrault – ver tesis PhD (2023)."
+    reverse:
+      title: "Servicios de Ingeniería Inversa y Gemelos Digitales"
+      intro: "Extraer modelos de alta fidelidad de sistemas legacy complejos y simulados mientras se reescribe el código."
+      bullets:
+        - "Modelos de sistemas detallados (software, datos, UI)."
+        - "Gemelos digitales que corren paralelos al sistema original."
+        - "Parsers personalizados desarrollados en Pharo Smalltalk."
+        - "Scripts de migración basados en modelos que automatizan el refactoring."
+  contact:
+    intro: "Cuéntanos el sistema legacy que deseas modernizar – respondemos en 24 h."
+    name: "Nombre"
+    email: "Correo electrónico"
+    company: "Empresa"
+    message: "Mensaje"
+    submit: "Enviar"
+  resume:
+    title: "Currículum rápido"
+    bullets:
+      - "PhD (2023) – Modernización de Software, Universidad de Lille."
+      - "14 años de ingeniería industrial (Lifeware, Ericsson, Berger Levrault)."
+      - "11 años en I+D en laboratorios europeos (INRIA RMOD, Berger Levrault, IMT‑Douai)."
+      - "Diseñé pipelines de ingeniería inversa (Moose/FAMIX) para migraciones legacy."
+      - "Toolkit open‑source de modernización (TaskIT, generadores de meta‑modelos) usado en planes de estudio."
+      - "Lideré migraciones completas: Access → Web, VisualWorks → Java, COBOL → micro‑servicios."
+      - "Speaker en PharoDays, ESUG, FOSDEM (ingeniería inversa, migración, análisis blockchain)."
+      - "Idiomas: inglés, español, francés (fluido); italiano, chino (básico)."
+
+fr:
+  site:
+    name: "Bragasoft"
+    tagline: "Modernisation logicielle industrielle appuyée par l’ingénierie inverse et la recherche."
+  nav:
+    home: "Accueil"
+    services: "Services"
+    portfolio: "Portfolio"
+    resume: "CV"
+    contact: "Contact"
+  hero:
+    cta_modernise: "Obtenir une feuille de route de modernisation"
+    cta_contact: "Parler à un consultant"
+  pillars:
+    industrial:
+      title: "Expérience industrielle"
+      text: "14 ans de conception de systèmes haute performance et distribués pour Lifeware, Ericsson et contrats de recherche."
+    modernisation:
+      title: "Modernisation logicielle"
+      text: "Migration complète des plateformes legacy vers des architectures cloud à l’aide de DDD, CI/CD et d’ingénierie inverse automatisée."
+    reverse:
+      title: "Ingénierie inverse"
+      text: "Outils de recherche (Moose/FAMIX, analyseurs Solidity, jumeaux numériques) qui alimentent le workflow Berger Levrault et les laboratoires universitaires."
+  services:
+    modernisation:
+      title: "Consulting en modernisation logicielle"
+      intro: "Plan de migration entièrement engineered qui transforme les bases de code legacy en systèmes maintenables et prêts pour le cloud."
+      bullets:
+        - "Domain‑Driven Design pour modéliser l’architecture cible."
+        - "Ingénierie inverse automatisée (Moose/FAMIX) pour Access, VisualWorks, C, C++."
+        - "Pipelines CI/CD (GitLab, Jenkins, Travis) garantissant des livraisons continues."
+        - "Prototype de preuve de concept déployé en 6‑12 semaines."
+      research_note: "Méthodologie co‑développée avec INRIA RMOD et Berger Levrault – voir la thèse (2023)."
+    reverse:
+      title: "Services d’ingénierie inverse & jumeaux numériques"
+      intro: "Extraire des modèles haute-fidélité de systèmes legacy complexes et les simuler pendant la réécriture."
+      bullets:
+        - "Modèles détaillés (logiciel, données, UI)."
+        - "Jumeaux numériques fonctionnant parallèlement au système original."
+        - "Parseurs personnalisés développés en Pharo Smalltalk."
+        - "Scripts de migration basés sur les modèles qui automatisent le refactoring."
+  contact:
+    intro: "Parlez‑nous du système legacy à moderniser – réponse sous 24 h."
+    name: "Nom"
+    email: "Courriel"
+    company: "Entreprise"
+    message: "Message"
+    submit: "Envoyer"
+  resume:
+    title: "CV rapide"
+    bullets:
+      - "Doctorat (2023) – Modernisation logicielle, Université de Lille."
+      - "14 ans d’ingénierie industrielle (Lifeware, Ericsson, Berger Levrault)."
+      - "11 ans de R&D dans des laboratoires européens (INRIA RMOD, Berger Levrault, IMT‑Douai)."
+      - "Conception de pipelines d’ingénierie inverse (Moose/FAMIX) pour les migrations legacy."
+      - "Toolkits open‑source de modernisation (TaskIT, générateurs de méta‑modèles) utilisés dans les programmes universitaires."
+      - "Direction de migrations complètes : Access → Web, VisualWorks → Java, COBOL → micro‑services."
+      - "Intervenant à PharoDays, ESUG, FOSDEM (ingénierie inverse, migration, analyse blockchain)."
+      - "Langues : anglais, espagnol, français (courant) ; italien, chinois (basiques)."

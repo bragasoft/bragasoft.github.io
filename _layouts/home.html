@@ -1,0 +1,24 @@
+---
+layout: default
+title: "{{ site.data.strings[page.lang].site.name }}"
+---
+<div class="jumbotron text-center py-5 bg-light rounded-3">
+  <h1 class="display-4">{{ site.data.strings[page.lang].site.name }}</h1>
+  <p class="lead">{{ site.data.strings[page.lang].site.tagline }}</p>
+  <a href="{{ '/services.html' | relative_url }}?lang={{ page.lang }}" class="btn btn-primary btn-lg me-2">
+    {{ site.data.strings[page.lang].hero.cta_modernise }}
+  </a>
+  <a href="{{ '/contact.html' | relative_url }}?lang={{ page.lang }}" class="btn btn-outline-secondary btn-lg">
+    {{ site.data.strings[page.lang].hero.cta_contact }}
+  </a>
+</div>
+
+<div class="row text-center mt-5">
+  {% assign pillars = site.data.strings[page.lang].pillars %}
+  {% for key in pillars %}
+  <div class="col-md-4 mb-4">
+    <h3>{{ pillars[key].title }}</h3>
+    <p>{{ pillars[key].text }}</p>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,28 @@
+---
+layout: page
+title: "{{ site.data.strings[page.lang].nav.contact }}"
+lang: {{ page.lang | default: site.default_lang }}
+---
+<p>{{ site.data.strings[page.lang].contact.intro }}</p>
+
+<form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="row g-3">
+  <div class="col-md-6">
+    <label for="name" class="form-label">{{ site.data.strings[page.lang].contact.name }}</label>
+    <input type="text" class="form-control" id="name" name="name" required>
+  </div>
+  <div class="col-md-6">
+    <label for="email" class="form-label">{{ site.data.strings[page.lang].contact.email }}</label>
+    <input type="email" class="form-control" id="email" name="_replyto" required>
+  </div>
+  <div class="col-12">
+    <label for="company" class="form-label">{{ site.data.strings[page.lang].contact.company }}</label>
+    <input type="text" class="form-control" id="company" name="company">
+  </div>
+  <div class="col-12">
+    <label for="message" class="form-label">{{ site.data.strings[page.lang].contact.message }}</label>
+    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">{{ site.data.strings[page.lang].contact.submit }}</button>
+  </div>
+</form>

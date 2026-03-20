@@ -1,0 +1,25 @@
+---
+layout: page
+title: "{{ site.data.strings[page.lang].nav.services }}"
+lang: {{ page.lang | default: site.default_lang }}
+---
+<section class="mb-5">
+  <h2>{{ site.data.strings[page.lang].services.modernisation.title }}</h2>
+  <p>{{ site.data.strings[page.lang].services.modernisation.intro }}</p>
+  <ul>
+    {% for item in site.data.strings[page.lang].services.modernisation.bullets %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+  <p class="text-muted"><small>{{ site.data.strings[page.lang].services.modernisation.research_note }}</small></p>
+</section>
+
+<section>
+  <h2>{{ site.data.strings[page.lang].services.reverse.title }}</h2>
+  <p>{{ site.data.strings[page.lang].services.reverse.intro }}</p>
+  <ul>
+    {% for item in site.data.strings[page.lang].services.reverse.bullets %}
+    <li>{{ item }}</li>
+    {% endfor %}
+  </ul>
+</section>

@@ -1,0 +1,19 @@
+title: "Bragasoft – Software Modernisation"
+description: "Industrial‑grade software modernisation, reverse‑engineering and consulting"
+url: "https://bragasoft.github.io"
+baseurl: ""
+
+# Languages supported
+languages: ["en", "es", "fr"]
+default_lang: "en"
+
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:title/
+
+# Plugins (GitHub Pages whitelist)
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
