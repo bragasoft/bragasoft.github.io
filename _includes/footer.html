@@ -1,11 +1,46 @@
-<!--  -----  BEGIN FOOTER  ----- -->
-<footer class="bg-light text-center py-4 mt-5">
+<footer class="site-footer">
   <div class="container">
-    <p class="mb-0">
-      © 2024 Bragasoft — <a href="mailto:santiagobragagnolo@gmail.com">santiagobragagnolo@gmail.com</a> —
-      <a href="https://linkedin.com/in/santiagobragagnolo" target="_blank">LinkedIn</a> —
-      <a href="https://github.com/sbragagnolo" target="_blank">GitHub</a>
-    </p>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">Braga<span class="highlight">soft</span></span>
+        <p>{{ site.data[page.lang].footer.description }}</p>
+        <div class="social-links">
+          <a href="https://github.com/sbragagnolo" target="_blank" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/santiagobragagnolo" target="_blank" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:santiagobragagnolo@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h4>{{ site.data[page.lang].footer.quick_links }}</h4>
+        <ul>
+          <li><a href="{{ site.baseurl }}/{{ page.lang }}/">Home</a></li>
+          <li><a href="{{ site.baseurl }}/{{ page.lang }}/expertise/">{{ site.data[page.lang].nav.expertise }}</a></li>
+          <li><a href="{{ site.baseurl }}/{{ page.lang }}/services/">{{ site.data[page.lang].nav.services }}</a></li>
+          <li><a href="{{ site.baseurl }}/{{ page.lang }}/contact/">{{ site.data[page.lang].nav.contact }}</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-contact">
+        <h4>{{ site.data[page.lang].footer.contact }}</h4>
+        <p><i class="fas fa-envelope"></i> santiagobragagnolo@gmail.com</p>
+        <p><i class="fas fa-map-marker-alt"></i> Lille, France</p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: '%Y' }} Bragasoft. {{ site.data[page.lang].footer.copyright }}</p>
+    </div>
   </div>
 </footer>
-<!--  -----  END FOOTER  ----- -->
+
+<script src="{{ site.baseurl }}/js/main.js"></script>
+</body>
+</html>
+

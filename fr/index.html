@@ -1,0 +1,284 @@
+---
+layout: default
+lang: fr
+title: Home
+description: Expert software modernization consulting - Legacy to Cloud migration, VB6/MS Access to Java conversion
+---
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ site.data.en.hero.title }}</h1>
+      <p class="subtitle">{{ site.data.en.hero.subtitle }}</p>
+      
+      <div class="hero-tags">
+        {% for tag in site.data.en.hero.tags %}
+        <span class="tag">
+          <i class="fas fa-check-circle"></i> {{ tag }}
+        </span>
+        {% endfor %}
+      </div>
+      
+      <div class="hero-cta">
+        <a href="{{ site.baseurl }}/en/contact/" class="btn btn-primary">
+          <i class="fas fa-calendar-alt"></i> {{ site.data.en.hero.cta_primary }}
+        </a>
+        <a href="{{ site.baseurl }}/en/projects/" class="btn btn-outline">
+          <i class="fas fa-folder-open"></i> {{ site.data.en.hero.cta_primary }}
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-number">{{ site.data.en.stats.years_industry }}</div>
+        <div class="stat-label">{{ site.data.en.stats.label_industry }}</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">{{ site.data.en.stats.years_research }}</div>
+        <div class="stat-label">{{ site.data.en.stats.label_research }}</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">{{ site.data.en.stats.projects_migrated }}</div>
+        <div class="stat-label">{{ site.data.en.stats.label_projects }}</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">{{ site.data.en.stats.publications }}</div>
+        <div class="stat-label">{{ site.data.en.stats.label_publications }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Expertise Section -->
+<section id="expertise">
+  <div class="container">
+    <div class="section-header">
+      <h2>{{ site.data.en.expertise.title }}</h2>
+      <p>{{ site.data.en.expertise.subtitle }}</p>
+    </div>
+    
+    <div class="expertise-grid">
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-cloud-upload-alt"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card1.title }}</h3>
+        <p>{{ site.data.en.expertise.card1.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card1.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card2.title }}</h3>
+        <p>{{ site.data.en.expertise.card2.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card2.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card3.title }}</h3>
+        <p>{{ site.data.en.expertise.card3.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card3.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-link"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card4.title }}</h3>
+        <p>{{ site.data.en.expertise.card4.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card4.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-database"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card5.title }}</h3>
+        <p>{{ site.data.en.expertise.card5.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card5.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-robot"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card6.title }}</h3>
+        <p>{{ site.data.en.expertise.card6.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card6.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Preview -->
+<section class="services-preview" style="background: var(--bg-light);">
+  <div class="container">
+    <div class="section-header">
+      <h2>{{ site.data.en.services.title }}</h2>
+      <p>{{ site.data.en.services.subtitle }}</p>
+    </div>
+    
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-code"></i>
+        </div>
+        <h3>{{ site.data.en.services.service1.title }}</h3>
+        <p>{{ site.data.en.services.service1.description }}</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-chess"></i>
+        </div>
+        <h3>{{ site.data.en.services.service2.title }}</h3>
+        <p>{{ site.data.en.services.service2.description }}</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-cogs"></i>
+        </div>
+        <h3>{{ site.data.en.services.service3.title }}</h3>
+        <p>{{ site.data.en.services.service3.description }}</p>
+      </div>
+      
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3>{{ site.data.en.services.service4.title }}</h3>
+        <p>{{ site.data.en.services.service4.description }}</p>
+      </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 40px;">
+      <a href="{{ site.baseurl }}/en/services/" class="btn btn-outline">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Preview -->
+<section class="projects-preview">
+  <div class="container">
+    <div class="section-header">
+      <h2>{{ site.data.en.projects.title }}</h2>
+      <p>{{ site.data.en.projects.subtitle }}</p>
+    </div>
+    
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-tags">
+            {% for tag in site.data.en.projects.project1.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3>{{ site.data.en.projects.project1.title }}</h3>
+          <p>{{ site.data.en.projects.project1.description }}</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-tags">
+            {% for tag in site.data.en.projects.project2.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3>{{ site.data.en.projects.project2.title }}</h3>
+          <p>{{ site.data.en.projects.project2.description }}</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-tags">
+            {% for tag in site.data.en.projects.project3.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3>{{ site.data.en.projects.project3.title }}</h3>
+          <p>{{ site.data.en.projects.project3.description }}</p>
+        </div>
+      </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 40px;">
+      <a href="{{ site.baseurl }}/en/projects/" class="btn btn-outline">View All Projects</a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact CTA -->
+<section class="contact-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>{{ site.data.en.contact.title }}</h2>
+      <p>{{ site.data.en.contact.subtitle }}</p>
+    </div>
+    
+    <div class="contact-grid">
+      <div class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <h3>{{ site.data.en.contact.email }}</h3>
+        <p>santiagobragagnolo@gmail.com</p>
+      </div>
+      
+      <div class="contact-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>{{ site.data.en.contact.location }}</h3>
+        <p>Lille, France</p>
+      </div>
+      
+      <div class="contact-card">
+        <i class="fab fa-linkedin"></i>
+        <h3>{{ site.data.en.contact.linkedin }}</h3>
+        <p><a href="https://linkedin.com/in/santiagobragagnolo">santiagobragagnolo</a></p>
+      </div>
+    </div>
+    
+    <div style="text-align: center; margin-top: 48px;">
+      <a href="{{ site.baseurl }}/en/contact/" class="btn btn-primary">
+        <i class="fas fa-paper-plane"></i> Get in Touch
+      </a>
+    </div>
+  </div>
+</section>
+

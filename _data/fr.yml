@@ -1,0 +1,173 @@
+nav:
+  home: Accueil
+  expertise: Expertise
+  services: Services
+  projects: Projets
+  contact: Contact
+
+hero:
+  title: "Modernisez Vos Logiciels.<br>Transformez Votre Entreprise."
+  subtitle: "Conseil expert en modernisation logicielle, migration de systèmes hérités et transformation cloud. Plus de 14 ans d'expertise industrielle transformés en solutions modernes et évolutives."
+  cta_primary: "Obtenir une Consultation"
+  cta_secondary: "Voir les Projets"
+  
+tags:
+  - Migration Héritée
+  - Cloud Native
+  - Intégration IA
+  - Recherche PhD
+  - Blockchain
+
+expertise:
+  title: "Domaines d'Expertise"
+  subtitle: "Connaissances techniques approfondies soutenues par plus de 14 ans d'expérience industrielle et 11 ans de recherche académique"
+  
+  card1:
+    title: "Migration Héritage vers Cloud"
+    description: "Migration complète des systèmes hérités vers des architectures cloud modernes. Solutions boîte noire et blanche pour VB6, MS Access et systèmes propriétaires."
+    items:
+      - VB6 vers Java/SpringBoot/Angular+TypeScript
+      - MS Access vers applications web modernes
+      - Rétro-ingénierie des données
+      - Conception d'architecture cloud-native
+      - Stratégies de migration sans interruption
+
+  card2:
+    title: "Analyse Statique et Métriques"
+    description: "Analyseurs personnalisés pour évaluer, mesurer et guider les efforts de modernisation avec des outils industriels."
+    items:
+      - Analyse compilateur C# (Roslyn)
+      - Clang/LLVM pour analyse C/C++
+      - Parseurs de langages personnalisés
+      - Métriques de complexité de migration
+      - Évaluation de la dette technique
+
+  card3:
+    title: "Intégration IA (Protocole MCP)"
+    description: "Intégration moderne de l'IA dans les systèmes hérités utilisant le Model Context Protocol pour une orchestration fluide."
+    items:
+      - Implémentation protocole MCP
+      - Outils de migration assistée par IA
+      - Automatisation intelligente
+      - Intégration LLM
+      - Migration de données intelligente
+
+  card4:
+    title: "Blockchain et Recherche"
+    description: "Recherche de pointe en analyse blockchain, contrats intelligents et évolution logicielle."
+    items:
+      - Analyse Ethereum/Solidity
+      - Sécurité des contrats intelligents
+      - Langages de requête blockchain
+      - Jumeaux logiciels
+      - Publications académiques
+
+  card5:
+    title: "Modernisation Pilotée par les Données"
+    description: "Migration guidée par une rétro-ingénierie et analyse approfondie des données."
+    items:
+      - Extraction du modèle de données
+      - Transformation des données héritées
+      - Migration de schéma
+      - Évaluation de la qualité des données
+      - Conception de pipelines ETL
+
+  card6:
+    title: "Systèmes Temps Réel"
+    description: "Expérience en robotique, ROS et modernisation des systèmes distribués."
+    items:
+      - Frameworks ROS/ROSDDS
+      - Traitement de données temps réel
+      - Architectures distribuées
+      - Intégration IoT
+
+stats:
+  years_industry: "14+"
+  label_industry: "Ans d'Industrie"
+  years_research: "11+"
+  label_research: "Ans de Recherche"
+  projects_migrated: "20+"
+  label_projects: "Projets Migrés"
+  publications: "15+"
+  label_publications: "Publications"
+
+services:
+  title: "Services de Conseil"
+  subtitle: "Conseil complet pour guider votre parcours de modernisation, de l'évaluation à l'exécution"
+  
+  service1:
+    title: "Conseil Technique"
+    description: "Évaluation technique approfondie, conception d'architecture et accompagnement pour des projets de modernisation complexes."
+    
+  service2:
+    title: "Conseil Stratégique"
+    description: "Planification stratégique de la transformation numérique, évaluation des risques et développement de feuille de route."
+    
+  service3:
+    title: "Conseil Opérationnel"
+    description: "Optimisation des processus, formation des équipes et implémentation de méthodologies (Agile, KanBan, XP, TDD)."
+    
+  service4:
+    title: "Recrutement Technique"
+    description: "Aide aux entretiens techniques, évaluation de candidats et constitution d'équipes pour la modernisation."
+
+projects:
+  title: "Projets Sélectionnés"
+  subtitle: "Projets industriels et de recherche démontrant l'expertise en modernisation"
+  
+  project1:
+    title: "Migration Lifeware (2023-Présent)"
+    tags: ["Rétro-Ingénierie", "Migration Données", "IA/MCP", "Java", "Oracle"]
+    description: "Migration complète du système guidée par la rétro-ingénierie des données. Intégration de l'IA via protocole MCP. Gestion de gros volumes de données, systèmes distribués multithreads."
+    
+  project2:
+    title: "PhD: Modernisation Logicielle (2020-2023)"
+    tags: ["Thèse PhD", "Métriques Migration", "Access vers Web", "Recherche"]
+    description: "PhD industriel à l'INRIA sur l'approche holistique pour migrer les systèmes hérités industriels vers les technologies web. Multiples publications sur l'évaluation des risques de migration."
+    
+  project3:
+    title: "Berger Levrault: Migration VB6/VBA"
+    tags: ["VB6", "Rétro-Ingénierie", "Moose-FAMIX", "Migration"]
+    description: "Développement de l'exportateur VB6/VBA vers Moose-FAMIX pour l'analyse de migration. Définition du sujet de thèse industrielle."
+    
+  project4:
+    title: "Outils d'Analyse Blockchain (2016-2020)"
+    tags: ["Ethereum", "Solidity", "Pharo", "Recherche"]
+    description: "Développement de l'interpréteur Solidity, simulateur VM Ethereum avec utilitaires de débogage, décompilateur bytecode et langage de requête Ethereum."
+    
+  project5:
+    title: "PhaROS & RoboShop (2012-2014)"
+    tags: ["Robotique", "ROS", "Pharo", "Navigation"]
+    description: "Framework pour développer des solutions robotiques en Pharo Smalltalk sur ROS. Architecture distribuée temps réel."
+    
+  project6:
+    title: "GSoC: Inférence de Types (2012)"
+    tags: ["Pharo", "GSoC", "Analyse Types"]
+    description: "Projet Google Summer of Code implémentant un système d'inférence de types concret pour Pharo Smalltalk."
+
+contact:
+  title: "Discutons de Votre Projet"
+  subtitle: "Prêt à moderniser vos systèmes logiciels? Contactez-moi pour une consultation."
+  email: "Email"
+  location: "Localisation"
+  linkedin: "LinkedIn"
+  form:
+    name: "Votre Nom"
+    email: "Votre Email"
+    company: "Entreprise (Optionnel)"
+    service: "Service Intéressé"
+    message: "Votre Message"
+    submit: "Envoyer le Message"
+    options:
+      - "Conseil Technique"
+      - "Conseil Stratégique"
+      - "Conseil Opérationnel"
+      - "Recrutement Technique"
+      - "Autre"
+
+footer:
+  description: "Conseil expert en modernisation logicielle. Transformer les systèmes hérités en solutions modernes prêtes pour le cloud."
+  quick_links: "Liens Rapides"
+  contact: "Contact"
+  copyright: "Tous droits réservés."
+

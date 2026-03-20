@@ -1,0 +1,94 @@
+---
+layout: default
+lang: es
+title: Projects
+description: Industrial and research projects in software modernization, blockchain, and robotics
+---
+
+<section class="hero" style="min-height: 50vh; padding: 60px 0;">
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ site.data.en.projects.title }}</h1>
+      <p class="subtitle">{{ site.data.en.projects.subtitle }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="projects-section">
+  <div class="container">
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-tags">
+            {% for tag in site.data.en.projects.project1.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3>{{ site.data.en.projects.project1.title }}</h3>
+          <p>{{ site.data.en.projects.project1.description }}</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-tags">
+            {% for tag in site.data.en.projects.project2.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3>{{ site.data.en.projects.project2.title }}</h3>
+          <p>{{ site.data.en.projects.project2.description }}</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-tags">
+            {% for tag in site.data.en.projects.project3.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3>{{ site.data.en.projects.project3.title }}</h3>
+          <p>{{ site.data.en.projects.project3.description }}</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-tags">
+            {% for tag in site.data.en.projects.project4.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3>{{ site.data.en.projects.project4.title }}</h3>
+          <p>{{ site.data.en.projects.project4.description }}</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-tags">
+            {% for tag in site.data.en.projects.project5.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3>{{ site.data.en.projects.project5.title }}</h3>
+          <p>{{ site.data.en.projects.project5.description }}</p>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-content">
+          <div class="project-tags">
+            {% for tag in site.data.en.projects.project6.tags %}
+            <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <h3>{{ site.data.en.projects.project6.title }}</h3>
+          <p>{{ site.data.en.projects.project6.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

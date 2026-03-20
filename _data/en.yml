@@ -1,0 +1,173 @@
+nav:
+  home: Home
+  expertise: Expertise
+  services: Services
+  projects: Projects
+  contact: Contact
+
+hero:
+  title: "Modernize Your Software.<br>Transform Your Business."
+  subtitle: "Expert consulting in software modernization, legacy system migration, and cloud transformation. Turning decades of industrial expertise into modern, scalable solutions."
+  cta_primary: "Get a Consultation"
+  cta_secondary: "View Projects"
+  
+tags:
+  - Legacy Migration
+  - Cloud Native
+  - AI Integration
+  - PhD Research
+  - Blockchain
+
+expertise:
+  title: "Areas of Expertise"
+  subtitle: "Deep technical knowledge backed by 14+ years of industrial experience and 11 years of academic research"
+  
+  card1:
+    title: "Legacy to Cloud Migration"
+    description: "Complete migration of legacy systems to modern cloud architectures. Black-box and white-box solutions for VB6, MS Access, and proprietary systems."
+    items:
+      - VB6 to Java/SpringBoot/Angular+TypeScript
+      - MS Access to modern web applications
+      - Data reverse engineering
+      - Cloud-native architecture design
+      - Zero-downtime migration strategies
+
+  card2:
+    title: "Static Analysis & Metrics"
+    description: "Custom analyzers to assess, measure, and guide modernization efforts using industrial-strength tools."
+    items:
+      - C# compiler analysis (Roslyn)
+      - Clang/LLVM for C/C++ analysis
+      - Custom language parsers
+      - Migration complexity metrics
+      - Technical debt assessment
+
+  card3:
+    title: "AI Integration (MCP Protocol)"
+    description: "Modern AI integration into legacy systems using the Model Context Protocol for seamless orchestration."
+    items:
+      - MCP protocol implementation
+      - AI-assisted migration tools
+      - Intelligent automation
+      - LLM integration
+      - Smart data migration
+
+  card4:
+    title: "Blockchain & Research"
+    description: "Cutting-edge research in blockchain analysis, smart contracts, and software evolution."
+    items:
+      - Ethereum/Solidity analysis
+      - Smart contract security
+      - Blockchain query languages
+      - Software twins
+      - Academic publications
+
+  card5:
+    title: "Data-Driven Modernization"
+    description: "Migration guided by deep data reverse engineering and analysis."
+    items:
+      - Data model extraction
+      - Legacy data transformation
+      - Schema migration
+      - Data quality assessment
+      - ETL pipeline design
+
+  card6:
+    title: "Real-Time Systems"
+    description: "Experience with robotics, ROS, and distributed systems modernization."
+    items:
+      - ROS/ROSDDS frameworks
+      - Real-time data processing
+      - Distributed architectures
+      - IoT integration
+
+stats:
+  years_industry: "14+"
+  label_industry: "Years in Industry"
+  years_research: "11+"
+  label_research: "Years Research"
+  projects_migrated: "20+"
+  label_projects: "Projects Migrated"
+  publications: "15+"
+  label_publications: "Publications"
+
+services:
+  title: "Consulting Services"
+  subtitle: "Comprehensive consulting to guide your modernization journey from assessment to execution"
+  
+  service1:
+    title: "Technical Consulting"
+    description: "In-depth technical assessment, architecture design, and implementation guidance for complex modernization projects."
+    
+  service2:
+    title: "Strategic Consulting"
+    description: "Strategic planning for digital transformation, risk assessment, and roadmap development."
+    
+  service3:
+    title: "Operational Consulting"
+    description: "Process optimization, team training, and methodology implementation (Agile, KanBan, XP, TDD)."
+    
+  service4:
+    title: "Technical Recruitment"
+    description: "Technical interview assistance, candidate evaluation, and team building for modernization teams."
+
+projects:
+  title: "Selected Projects"
+  subtitle: "Industrial and research projects demonstrating modernization expertise"
+  
+  project1:
+    title: "Lifeware Migration (2023-Present)"
+    tags: ["Reverse Engineering", "Data Migration", "AI/MCP", "Java", "Oracle"]
+    description: "Complete system migration guided by data reverse engineering. Integration of AI via MCP protocol. Large-scale data handling, distributed multithreaded systems."
+    
+  project2:
+    title: "PhD: Software Modernization (2020-2023)"
+    tags: ["PhD Thesis", "Migration Metrics", "Access to Web", "Research"]
+    description: "Industrial PhD at INRIA on holistic approach to migrate industrial legacy systems to web technologies. Published multiple papers on migration risk assessment."
+    
+  project3:
+    title: "Berger Levrault: VB6/VBA Migration"
+    tags: ["VB6", "Reverse Engineering", "Moose-FAMIX", "Migration"]
+    description: "Development of VB6/VBA to Moose-FAMIX exporter for migration analysis. Definition of industrial thesis subject."
+    
+  project4:
+    title: "Blockchain Analysis Tools (2016-2020)"
+    tags: ["Ethereum", "Solidity", "Pharo", "Research"]
+    description: "Development of Solidity interpreter, Ethereum VM simulator with debug utilities, bytecode decompiler, and Ethereum query language."
+    
+  project5:
+    title: "PhaROS & RoboShop (2012-2014)"
+    tags: ["Robotics", "ROS", "Pharo", "Navigation"]
+    description: "Framework for developing robotic solutions in Pharo Smalltalk on ROS middleware. Real-time distributed architecture."
+    
+  project6:
+    title: "GSoC: Type Inference (2012)"
+    tags: ["Pharo", "GSoC", "Type Analysis"]
+    description: "Google Summer of Code project implementing concrete type inference system for Pharo Smalltalk."
+
+contact:
+  title: "Let's Discuss Your Project"
+  subtitle: "Ready to modernize your software systems? Get in touch for a consultation."
+  email: "Email"
+  location: "Location"
+  linkedin: "LinkedIn"
+  form:
+    name: "Your Name"
+    email: "Your Email"
+    company: "Company (Optional)"
+    service: "Service Interested In"
+    message: "Your Message"
+    submit: "Send Message"
+    options:
+      - "Technical Consulting"
+      - "Strategic Consulting"
+      - "Operational Consulting"
+      - "Technical Recruitment"
+      - "Other"
+
+footer:
+  description: "Expert software modernization consulting. Transforming legacy systems into modern, cloud-ready solutions."
+  quick_links: "Quick Links"
+  contact: "Contact"
+  copyright: "All rights reserved."
+

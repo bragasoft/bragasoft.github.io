@@ -1,46 +1,31 @@
-<!--  -----  BEGIN HEADER  ----- -->
-<header class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">
-      <img src="assets/img/logo.svg" alt="Bragasoft" height="30">
-      Bragasoft
+<header class="site-header">
+  <div class="container">
+    <a href="{{ site.baseurl }}/" class="site-logo">
+      <span class="logo-text">Braga<span class="highlight">soft</span></span>
     </a>
-
-    <button class="navbar-toggler" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+    
+    <nav class="site-nav">
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <ul class="nav-menu">
+        <li class="lang-switch">
+          <a href="{{ site.baseurl }}/en/" {% if page.lang == 'en' %}class="active"{% endif %}>EN</a>
+          <span class="lang-sep">|</span>
+          <a href="{{ site.baseurl }}/fr/" {% if page.lang == 'fr' %}class="active"{% endif %}>FR</a>
+          <span class="lang-sep">|</span>
+          <a href="{{ site.baseurl }}/es/" {% if page.lang == 'es' %}class="active"{% endif %}>ES</a>
+        </li>
+        <li><a href="{{ site.baseurl }}/{{ page.lang }}/">Home</a></li>
+        <li><a href="{{ site.baseurl }}/{{ page.lang }}/expertise/">{{ site.data[page.lang].nav.expertise }}</a></li>
+        <li><a href="{{ site.baseurl }}/{{ page.lang }}/services/">{{ site.data[page.lang].nav.services }}</a></li>
+        <li><a href="{{ site.baseurl }}/{{ page.lang }}/projects/">{{ site.data[page.lang].nav.projects }}</a></li>
+        <li><a href="{{ site.baseurl }}/{{ page.lang }}/contact/" class="btn btn-primary">{{ site.data[page.lang].nav.contact }}</a></li>
       </ul>
-
-      <!-- language selector (just swaps HTML pages) -->
-      <div class="d-flex">
-        <button class="btn btn-outline-secondary btn-sm me-1"
-                onclick="switchLang('en')">EN</button>
-        <button class="btn btn-outline-secondary btn-sm me-1"
-                onclick="switchLang('es')">ES</button>
-        <button class="btn btn-outline-secondary btn-sm"
-                onclick="switchLang('fr')">FR</button>
-      </div>
-    </div>
+    </nav>
   </div>
 </header>
 
-<script>
-  // Very simple language switch – just loads the same page with ?lang=xx
-  function switchLang(lang) {
-    const url = new URL(window.location);
-    url.searchParams.set('lang', lang);
-    window.location = url;
-  }
-</script>
-<!--  -----  END HEADER  ----- -->

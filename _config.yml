@@ -1,19 +1,25 @@
-title: "Bragasoft – Software Modernisation"
-description: "Industrial‑grade software modernisation, reverse‑engineering and consulting"
-url: "https://bragasoft.github.io"
-baseurl: ""
+title: Bragasoft
+description: Expert software modernization consulting - Transforming legacy systems to modern cloud solutions
+author: Santiago Bragagnolo
+email: santiagobragagnolo@gmail.com
+url: https://bragasoft.github.io
 
-# Languages supported
-languages: ["en", "es", "fr"]
-default_lang: "en"
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
 
-# Collections
-collections:
-  portfolio:
-    output: true
-    permalink: /portfolio/:title/
-
-# Plugins (GitHub Pages whitelist)
+# Plugins
 plugins:
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-redirect_from
+
+# Exclude
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+
