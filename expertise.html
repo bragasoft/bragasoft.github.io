@@ -1,0 +1,141 @@
+---
+layout: default
+lang: fr
+title: Expertise
+description: Technical expertise in software modernization, legacy migration, blockchain analysis, and AI integration
+---
+
+<section class="hero" style="min-height: 50vh; padding: 60px 0;">
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ site.data.en.expertise.title }}</h1>
+      <p class="subtitle">{{ site.data.en.expertise.subtitle }}</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="expertise-grid">
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-cloud-upload-alt"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card1.title }}</h3>
+        <p>{{ site.data.en.expertise.card1.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card1.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-search"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card2.title }}</h3>
+        <p>{{ site.data.en.expertise.card2.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card2.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card3.title }}</h3>
+        <p>{{ site.data.en.expertise.card3.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card3.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-link"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card4.title }}</h3>
+        <p>{{ site.data.en.expertise.card4.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card4.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-database"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card5.title }}</h3>
+        <p>{{ site.data.en.expertise.card5.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card5.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+      <div class="expertise-card">
+        <div class="expertise-icon">
+          <i class="fas fa-robot"></i>
+        </div>
+        <h3>{{ site.data.en.expertise.card6.title }}</h3>
+        <p>{{ site.data.en.expertise.card6.description }}</p>
+        <ul>
+          {% for item in site.data.en.expertise.card6.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background: var(--bg-light);">
+  <div class="container">
+    <div class="section-header">
+      <h2>Technologies & Tools</h2>
+      <p>Industrial-grade tools and frameworks I use for modernization projects</p>
+    </div>
+    
+    <div class="expertise-grid">
+      <div class="expertise-card">
+        <h3>Languages</h3>
+        <p>Pharo, Smalltalk, Java, Python, C, C++, TypeScript, Scala, Groovy, Ruby, PHP, VB6, VBA</p>
+      </div>
+      
+      <div class="expertise-card">
+        <h3>Analysis Tools</h3>
+        <p>Roslyn (C#), Clang/LLVM, Moose-FAMIX, Python AST, Custom Parsers</p>
+      </div>
+      
+      <div class="expertise-card">
+        <h3>Modern Stack</h3>
+        <p>SpringBoot, Angular, React, Node.js, PostgreSQL, Oracle, MongoDB, Redis</p>
+      </div>
+      
+      <div class="expertise-card">
+        <h3>Cloud & DevOps</h3>
+        <p>AWS, Azure, Docker, Kubernetes, CI/CD (Jenkins, GitHub Actions), Terraform</p>
+      </div>
+      
+      <div class="expertise-card">
+        <h3>Blockchain</h3>
+        <p>Ethereum, Solidity, Web3.js, EVM, Custom VM Simulators</p>
+      </div>
+      
+      <div class="expertise-card">
+        <h3>Robotics</h3>
+        <p>ROS, ROS2, DDS, Pharo-ROS, RoboShop, Navigation Stack</p>
+      </div>
+    </div>
+  </div>
+</section>
+
